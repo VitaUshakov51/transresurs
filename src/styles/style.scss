@@ -115,7 +115,10 @@ html {
 
   @media (max-width: 768px) {
     background-image: url("../images/mobile-herobg.jpg");
-    height: 550px;
+    height: 313px;
+  }
+  @media (max-width: 550px) {
+    height: 210px;
   }
 
   .header {

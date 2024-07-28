@@ -99,7 +99,12 @@ html {
 @media (max-width: 768px) {
   .hero {
     background-image: url("../images/mobile-herobg.jpg");
-    height: 550px;
+    height: 313px;
+  }
+}
+@media (max-width: 550px) {
+  .hero {
+    height: 210px;
   }
 }
 .hero .header {
