@@ -96,6 +96,11 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 768px) {
+  .hero {
+    background-image: url("../images/mobile-herobg.jpg");
+  }
+}
 .hero .header {
   padding: 20px;
   -webkit-backdrop-filter: blur(4px);

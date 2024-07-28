@@ -113,9 +113,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 
-  //@media (max-width: 768px) {
-  //  background-image: url("../images/mobile-herobg.jpg");
-  //}
+  @media (max-width: 768px) {
+    background-image: url("../images/mobile-herobg.jpg");
+  }
 
   .header {
     padding: 20px;
