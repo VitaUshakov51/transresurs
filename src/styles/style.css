@@ -95,11 +95,16 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 880px;
+  height: 740px;
 }
 @media (max-width: 1600px) {
   .hero {
     height: 610px;
+  }
+}
+@media (max-width: 1024px) {
+  .hero {
+    height: 350px;
   }
 }
 @media (max-width: 768px) {
@@ -110,7 +115,7 @@ html {
 }
 @media (max-width: 550px) {
   .hero {
-    height: 210px;
+    height: 160px;
   }
 }
 .hero .header {
