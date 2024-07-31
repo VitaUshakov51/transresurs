@@ -95,6 +95,22 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 880px;
+}
+@media (max-width: 1700px) {
+  .hero {
+    height: 780px;
+  }
+}
+@media (max-width: 1500px) {
+  .hero {
+    height: 680px;
+  }
+}
+@media (max-width: 1380px) {
+  .hero {
+    height: 630px;
+  }
 }
 @media (max-width: 768px) {
   .hero {
@@ -258,6 +274,11 @@ html {
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1380px) {
+  .hero .container .hero__block {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 1024px) {
   .hero .container .hero__block {
