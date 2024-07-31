@@ -91,25 +91,15 @@ html {
 }
 
 .hero {
-  background-image: url("../images/herobg.jpg");
+  background-image: url("../images/bighero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 880px;
 }
-@media (max-width: 1700px) {
+@media (max-width: 1600px) {
   .hero {
-    height: 780px;
-  }
-}
-@media (max-width: 1500px) {
-  .hero {
-    height: 680px;
-  }
-}
-@media (max-width: 1380px) {
-  .hero {
-    height: 630px;
+    height: 610px;
   }
 }
 @media (max-width: 768px) {
@@ -275,9 +265,9 @@ html {
   backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.5);
 }
-@media (max-width: 1380px) {
+@media (max-width: 1600px) {
   .hero .container .hero__block {
-    margin-top: 70px;
+    margin-top: 38px;
   }
 }
 @media (max-width: 1024px) {
