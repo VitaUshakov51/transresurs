@@ -91,7 +91,7 @@ html {
 }
 
 .hero {
-  background-image: url("../images/bighero.jpg");
+  background-image: url("../images/new-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ html {
 }
 @media (max-width: 768px) {
   .hero {
-    background-image: url("../images/mobile-herobg.jpg");
+    background-image: url("../images/new-hero.png");
     height: 313px;
   }
 }
