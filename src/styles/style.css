@@ -266,8 +266,8 @@ html {
   max-width: 621px;
   border-radius: 12px;
   padding: 40px;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
   background: rgba(255, 255, 255, 0.5);
 }
 @media (max-width: 1600px) {
