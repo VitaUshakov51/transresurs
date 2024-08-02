@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   scroll-behavior: smooth;
 }
@@ -143,6 +144,20 @@ html {
   justify-content: center;
   gap: 60px;
   margin-left: 60px;
+  align-items: center;
+}
+.hero .header .menu:after {
+  content: "Трансресурс - АО Промышленно-финансовая компания";
+  width: 320px;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .hero .header .menu:after {
+    display: none;
+  }
 }
 @media (max-width: 1024px) {
   .hero .header .menu {
