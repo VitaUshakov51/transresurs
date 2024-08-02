@@ -141,9 +141,15 @@ html {
 }
 .hero .header .container .dop {
   max-width: 300px;
+  margin-left: -23%;
 }
 .hero .header .container .dop img {
   width: 100%;
+}
+@media (max-width: 1290px) {
+  .hero .header .container .dop {
+    margin-left: 0%;
+  }
 }
 @media (max-width: 988px) {
   .hero .header .container .dop {

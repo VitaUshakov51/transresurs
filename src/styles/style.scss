@@ -159,10 +159,15 @@ html {
       gap: 20px;
       .dop {
         max-width: 300px;
+        margin-left: -23%;
         img {
           width: 100%;
         }
 
+        @media (max-width: 1290px) {
+          margin-left: 0%;
+        }
+        
         @media (max-width: 988px) {
           display: none;
         }
