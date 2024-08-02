@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   scroll-behavior: smooth;
 }
@@ -135,7 +134,23 @@ html {
     display: none;
   }
 }
-.hero .header .menu {
+.hero .header .container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero .header .container .dop {
+  max-width: 300px;
+}
+.hero .header .container .dop img {
+  width: 100%;
+}
+@media (max-width: 988px) {
+  .hero .header .container .dop {
+    display: none;
+  }
+}
+.hero .header .container .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,32 +159,18 @@ html {
   justify-content: center;
   gap: 60px;
   margin-left: 60px;
-  align-items: center;
-}
-.hero .header .menu:after {
-  content: "Трансресурс - АО Промышленно-финансовая компания";
-  width: 320px;
-  top: 0;
-  right: 0;
-  font-size: 16px;
-  text-align: center;
 }
 @media (max-width: 1024px) {
-  .hero .header .menu:after {
-    display: none;
-  }
-}
-@media (max-width: 1024px) {
-  .hero .header .menu {
+  .hero .header .container .menu {
     margin-left: 0;
   }
 }
 @media (max-width: 670px) {
-  .hero .header .menu {
+  .hero .header .container .menu {
     gap: 20px;
   }
 }
-.hero .header .menu .menu__list {
+.hero .header .container .menu .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,11 +180,11 @@ html {
   gap: 60px;
 }
 @media (max-width: 670px) {
-  .hero .header .menu .menu__list {
+  .hero .header .container .menu .menu__list {
     gap: 20px;
   }
 }
-.hero .header .menu .menu__list .menu__item .menu__link {
+.hero .header .container .menu .menu__list .menu__item .menu__link {
   font-weight: 400;
   font-size: 14px;
   color: #4B4241;
@@ -193,7 +194,7 @@ html {
   border-bottom: 1px solid transparent;
   padding-bottom: 8px;
 }
-.hero .header .menu .menu__list .menu__item .menu__link:hover {
+.hero .header .container .menu .menu__list .menu__item .menu__link:hover {
   border-bottom: 1px solid #4B4241;
 }
 .hero .mobile-header {
