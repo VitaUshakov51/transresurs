@@ -288,7 +288,7 @@ html {
     .hero__block {
       margin-top: 136px;
       margin-bottom: 220px;
-      max-width: 621px;
+      max-width: 500px;
       border-radius: 12px;
       padding: 40px;
       -webkit-backdrop-filter: blur(0px);
@@ -296,7 +296,7 @@ html {
       background: rgba(255, 255, 255, 0.5);
       
       @media (max-width: 1600px) {
-        margin-top: 38px;
+        margin-top: 75px;
       }
       
       @media (max-width: 1024px) {
@@ -305,7 +305,7 @@ html {
 
       .hero__block-title {
         font-weight: 700;
-        font-size: 46px;
+        font-size: 34px;
         line-height: 130%;
         text-align: center;
         color: $zagolovochny;

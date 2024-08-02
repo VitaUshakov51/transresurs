@@ -263,7 +263,7 @@ html {
 .hero .container .hero__block {
   margin-top: 136px;
   margin-bottom: 220px;
-  max-width: 621px;
+  max-width: 500px;
   border-radius: 12px;
   padding: 40px;
   -webkit-backdrop-filter: blur(0px);
@@ -272,7 +272,7 @@ html {
 }
 @media (max-width: 1600px) {
   .hero .container .hero__block {
-    margin-top: 38px;
+    margin-top: 75px;
   }
 }
 @media (max-width: 1024px) {
@@ -282,7 +282,7 @@ html {
 }
 .hero .container .hero__block .hero__block-title {
   font-weight: 700;
-  font-size: 46px;
+  font-size: 34px;
   line-height: 130%;
   text-align: center;
   color: #181515;
